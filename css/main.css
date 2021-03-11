@@ -1,3 +1,15 @@
+.banner-picture {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /*
 // 1. Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
@@ -6290,9 +6302,9 @@ label.panel-block {
     .hero.is-white strong {
       color: inherit; }
     .hero.is-white .title {
-      color: #0a0a0a; }
+      color: #cfcfcf; }
     .hero.is-white .subtitle {
-      color: rgba(10, 10, 10, 0.9); }
+      color: #cfcfcf; }
       .hero.is-white .subtitle a:not(.button),
       .hero.is-white .subtitle strong {
         color: #0a0a0a; }
